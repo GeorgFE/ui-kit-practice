@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('./icons/style.css');
+
+:root{
+    --grad: linear-gradient(to right, red , orange);
+    --dark: rgb(161, 161, 161);
+}
+
+body{
+    background-color: rgb(219, 219, 219);
+    font-family: 'Inter', sans-serif
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.ic_arrow_down{
+    width: 100px;height: 100px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 10px solid red;
+    min-height: 100vh;
+}
+.wrapper>div{
+    border: 1px solid green;
+}
